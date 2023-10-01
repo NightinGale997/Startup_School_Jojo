@@ -1,0 +1,41 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Startup_School_Jojo
+build_property.RootNamespace = Startup_School_Jojo
+build_property.ProjectDir = C:\Users\dozan\source\repos\Startup_School_Jojo\Startup_School_Jojo\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\dozan\source\repos\Startup_School_Jojo\Startup_School_Jojo
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/dozan/source/repos/Startup_School_Jojo/Startup_School_Jojo/Components/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dozan/source/repos/Startup_School_Jojo/Startup_School_Jojo/Layouts/App.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dozan/source/repos/Startup_School_Jojo/Startup_School_Jojo/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dozan/source/repos/Startup_School_Jojo/Startup_School_Jojo/Layouts/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0c1xNYWluTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-9kfpuu91ad
+
+[C:/Users/dozan/source/repos/Startup_School_Jojo/Startup_School_Jojo/Layouts/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0c1xFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dozan/source/repos/Startup_School_Jojo/Startup_School_Jojo/Layouts/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0c1xfSG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
