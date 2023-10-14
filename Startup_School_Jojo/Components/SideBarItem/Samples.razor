@@ -1,0 +1,32 @@
+@using DBManager
+@inject DB db
+
+<div class="sidebar-window samples @View">
+    <div class="sidebar-head">
+        <p class="sidebar-name"></p>
+    </div>
+    <ul class="sidebar-content">
+        <li class="sidebar-content-add"><button class="sidebar-btn" @onclick='() => AddSample()'>Создать Sample</button></li>
+        @foreach (var sample in @db.GetSamples())
+        {
+            <li class="sidebar-item sample">
+                <p class="sample-name">@sample.Name</p>
+                <button class="sample-edit" >E</button>
+                <button class="sample-delete" @onclick='() => DeleteSample(sample.Id)'>D</button>
+            </li>
+        }
+    </ul>
+</div>
+@code {
+    [Parameter]
+    public string? View { get; set; }
+
+    public void AddSample(){
+        db.AddSample();
+    }
+
+    public void DeleteSample(int sample_id){
+        db.RemoveSample(sample_id);
+    }
+    
+}

@@ -9,33 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Startup_School_Jojo
 build_property.RootNamespace = Startup_School_Jojo
-build_property.ProjectDir = C:\Users\dozan\source\repos\Startup_School_Jojo\Startup_School_Jojo\
+build_property.ProjectDir = C:\Users\Ar1ess\Program\web\OnlineSchool\Startup_School_Jojo\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\dozan\source\repos\Startup_School_Jojo\Startup_School_Jojo
+build_property.MSBuildProjectDirectory = C:\Users\Ar1ess\Program\web\OnlineSchool\Startup_School_Jojo
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/dozan/source/repos/Startup_School_Jojo/Startup_School_Jojo/Components/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbmRleC5yYXpvcg==
+[C:/Users/Ar1ess/Program/web/OnlineSchool/Startup_School_Jojo/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dozan/source/repos/Startup_School_Jojo/Startup_School_Jojo/Layouts/App.razor]
+[C:/Users/Ar1ess/Program/web/OnlineSchool/Startup_School_Jojo/Components/Pages/WorkspaceEditor.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXb3Jrc3BhY2VFZGl0b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ar1ess/Program/web/OnlineSchool/Startup_School_Jojo/Components/SideBarItem/Account.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaWRlQmFySXRlbVxBY2NvdW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ar1ess/Program/web/OnlineSchool/Startup_School_Jojo/Components/SideBarItem/Friends.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaWRlQmFySXRlbVxGcmllbmRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ar1ess/Program/web/OnlineSchool/Startup_School_Jojo/Components/SideBarItem/Samples.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaWRlQmFySXRlbVxTYW1wbGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ar1ess/Program/web/OnlineSchool/Startup_School_Jojo/Components/SideBarItem/Settings.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaWRlQmFySXRlbVxTZXR0aW5ncy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ar1ess/Program/web/OnlineSchool/Startup_School_Jojo/Components/SideBarItem/Workspaces.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaWRlQmFySXRlbVxXb3Jrc3BhY2VzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ar1ess/Program/web/OnlineSchool/Startup_School_Jojo/Layouts/App.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dozan/source/repos/Startup_School_Jojo/Startup_School_Jojo/_Imports.razor]
+[C:/Users/Ar1ess/Program/web/OnlineSchool/Startup_School_Jojo/Layouts/SIdeBarItem/Account/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0c1xTSWRlQmFySXRlbVxBY2NvdW50XEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ar1ess/Program/web/OnlineSchool/Startup_School_Jojo/Layouts/SIdeBarItem/Market/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0c1xTSWRlQmFySXRlbVxNYXJrZXRcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ar1ess/Program/web/OnlineSchool/Startup_School_Jojo/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dozan/source/repos/Startup_School_Jojo/Startup_School_Jojo/Layouts/MainLayout.razor]
+[C:/Users/Ar1ess/Program/web/OnlineSchool/Startup_School_Jojo/Layouts/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0c1xNYWluTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-9kfpuu91ad
 
-[C:/Users/dozan/source/repos/Startup_School_Jojo/Startup_School_Jojo/Layouts/Error.cshtml]
+[C:/Users/Ar1ess/Program/web/OnlineSchool/Startup_School_Jojo/Layouts/SideBar.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0c1xTaWRlQmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-8ee71wfuzk
+
+[C:/Users/Ar1ess/Program/web/OnlineSchool/Startup_School_Jojo/Layouts/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0c1xFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dozan/source/repos/Startup_School_Jojo/Startup_School_Jojo/Layouts/_Host.cshtml]
+[C:/Users/Ar1ess/Program/web/OnlineSchool/Startup_School_Jojo/Layouts/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0c1xfSG9zdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

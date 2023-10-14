@@ -1,0 +1,10 @@
+@page "/"
+@inject NavigationManager NavManager
+
+<button @onclick='() => AddWorkspace()'>Создать Workspace</button>
+
+@code{
+    public void AddWorkspace(){
+        NavManager.NavigateTo("/WorkspaceEditor/" + Guid.NewGuid().ToString());
+    }
+}

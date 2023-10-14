@@ -1,5 +1,7 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+
+
 .valid.modified:not([type=checkbox]) {
     outline: 1px solid #26b050;
 }
@@ -39,4 +41,28 @@
 
 .blazor-error-boundary::after {
     content: "An error has occurred."
+}
+
+.sidebar-head{
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.sidebar-window{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 210px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    z-index: 1;
+    box-shadow: 10px 0px 10px 0px #00000040;
+    transition: all 150ms cubic-bezier(0.61, 1, 0.88, 1) 0s;
+}
+.sidebar-window.view{
+    right: -210px;
+    background-color: #F0F0F0;
 }

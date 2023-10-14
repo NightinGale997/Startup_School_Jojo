@@ -1,0 +1,9 @@
+{
+  "Name": "Component 1",
+  "Modules": [
+    "Module A",
+    "Module B",
+    "Module C"
+  ],
+  "CreatedDate": "2023-10-10T10:00:00"
+}
