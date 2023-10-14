@@ -1,0 +1,62 @@
+@page "/WorkspaceEditor/{guid}"
+@using System.Collections.Generic
+
+<div>
+    <h4>Введите данные:</h4>
+
+    <div>
+        <label for="name">Название:</label>
+        <input id="name" type="text" @bind="@Name" />
+    </div>
+
+    <div>
+        <label for="list1">Список 1:</label>
+        <select id="list1" multiple @bind="@selectListValue1">
+            @foreach (string item in ItemsList1)
+            {
+                <option value="@item">@item</option>
+            }
+        </select>
+    </div>
+
+    <div>
+        <label for="list2">Список 2:</label>
+        <select id="list2" multiple @bind="@selectListValue1">
+            @foreach (var item in ItemsList1)
+            {
+                <option value="@item">@item</option>
+            }
+        </select>
+    </div>
+
+    <button @onclick="@SaveData">Сохранить</button>
+</div>
+
+@code {
+    private string Name { get; set; } = "";
+    private List<string> SelectedItemsList1 { get; set; } = new List<string>();
+    private List<string> SelectedItemsList2 { get; set; } = new List<string>();
+    
+    // Заменить на свойства с реальными данными
+    public List<string> ItemsList1 { get; set; } = new List<string> { "Элемент 1", "Элемент 2", "Элемент 3" };
+    public List<string> ItemsList2 { get; set; } = new List<string> { "Аддишн 1", "Аддишн 2", "Аддишн 3" };
+    public string selectListValue1;
+    public List<string> GetItem1(){
+        return ItemsList1;    
+    }
+    public List<string> GetItem2(){
+        return ItemsList2;    
+    }
+
+    private void SaveData()
+    {
+        // Выполняем сохранение данных в таблицу
+        // Например, вызываем метод SaveData у родительского компонента или через сервис
+        // Можно использовать DI для инъекции сервиса
+    }
+}
+
+@code{
+    [Parameter]
+    public string? guid {get;set;}
+}

@@ -1,0 +1,32 @@
+.sidebar-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    overflow-y: auto;
+}
+.sidebar-content>li{
+    width: 100%;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+.sidebar-btn{
+    height: 100%;
+    width: 100%;
+}
+.sidebar-item{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+.sidebar-list>button{
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+}

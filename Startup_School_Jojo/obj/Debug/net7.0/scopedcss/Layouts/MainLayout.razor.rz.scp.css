@@ -1,0 +1,12 @@
+.main[b-9kfpuu91ad]{
+    width: 100%;
+    display: flex;
+    max-height: 100%;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: stretch;
+}
+.content[b-9kfpuu91ad]{
+    flex-grow: 1;
+    overflow: auto;
+}
